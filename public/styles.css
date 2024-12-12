@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 48px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 92px;
+}
+
+main {
+    flex: 1 1 auto
+}
+
+footer {
+    padding: 48px;
+    text-align: center;
+}
+
