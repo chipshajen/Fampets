@@ -10,8 +10,8 @@ body {
     flex-direction: column;
 }
 
-header {
-    padding: 48px;
+header h1 {
+    padding: 48px 96px 24px;
     text-align: center;
 }
 
@@ -22,7 +22,7 @@ header ul {
     gap: 92px;
 }
 
-main {
+.main {
     flex: 1 1 auto
 }
 
