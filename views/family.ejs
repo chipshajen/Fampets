@@ -10,8 +10,14 @@
     <%- include('partials/header', {categories: categories}) %>
 
     <div class="main">
-        Families on the website: <%= stats.family_count %> <br>
-        Pets on the website: <%= stats.pet_count %>
+        <ul>
+            <% data.forEach((data) => { %>
+                <li>
+                    Family:<a href="/family/<%- data.id %>"> <%= data.name %> </a>
+                </li>
+            <% }) %>
+        </ul>
+        
     </div>
 
     <%- include('partials/footer') %>
